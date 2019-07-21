@@ -11,33 +11,37 @@ h4 {
 .page {
     text-align: center;
 }
-.page__headline {
+.page__header {
+    text-align: center;
+    padding: 30px;
+}
+.header {
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    background: #000;
+}
+.header__headline {
     font-size: 90px;
     font-size: 11vw;
     margin: 20px 0;
 }
-.page__sub {
+.header__sub {
     font-size: 27px;
     font-size: 3vw;
-}
-.page__header {
-    text-align: center;
-    padding: 30px;
-    font-family: 'Poiret One', cursive;
-    color: #fff;
-    background: #000;
 }
 .address {
     text-align: center;
     vertical-align: top;
     display: inline-block;
 }
-.address_item {
+.list {
+    list-style: none;
+    padding-inline-start: 40px;
+}
+.list__item {
     margin: 10px 0px;
 }
 .address__list {
-    list-style: none;
-    padding-inline-start: 40px;
     font-size: 16px;
 }
 .address__ancor {
@@ -66,7 +70,7 @@ h4 {
     padding: 10px;
     margin: 10px;
 }
-.address__form {
+.donation-form {
     text-align: center;
 }
 .avatar, .address {
