@@ -31,7 +31,6 @@ h4 {
 }
 .address {
     text-align: center;
-    vertical-align: top;
     display: inline-block;
 }
 .list {
@@ -89,13 +88,11 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-    .page__sub {
+    .header__sub {
         font-size: 5vw;
     }
     .avatar {
         margin: 10px;
-    }
-    .address__item {
     }
 }
 
